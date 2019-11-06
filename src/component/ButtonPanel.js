@@ -1,8 +1,13 @@
 import React, { Component } from "react";
-
+import Button from "./Button";
 export class ButtonPanel extends Component {
   render() {
-    return <div>Hello ButtonPanel</div>;
+    return (
+      <div>
+        Test ButtonPanel
+        <Button />
+      </div>
+    );
   }
 }
 
