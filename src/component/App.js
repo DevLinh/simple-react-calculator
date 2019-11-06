@@ -1,6 +1,8 @@
 import React from "react";
 import ButtonPanel from "./ButtonPanel";
 import Display from "./Display";
+import calculate from "../logic/calculate";
+import "./App.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -11,11 +13,11 @@ class App extends React.Component {
     };
   }
   handleClick = buttonName => {
-    console.log("You clicked", buttonName);
+    this.setState(calculate(this.state, buttonName));
   };
   render() {
     return (
-      <div>
+      <div className="component-app">
         <Display value={this.state.result || this.state.next || "0"} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
