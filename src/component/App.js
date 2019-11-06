@@ -5,8 +5,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Test Calculator
-        <Display />
+        <Display value="1999" />
         <ButtonPanel />
       </div>
     );
