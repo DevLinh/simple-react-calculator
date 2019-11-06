@@ -4,8 +4,29 @@ export class ButtonPanel extends Component {
   render() {
     return (
       <div>
-        Test ButtonPanel
-        <Button />
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+        </div>
       </div>
     );
   }

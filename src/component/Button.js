@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class Button extends Component {
   render() {
-    return <div>THis is A BUTTON</div>;
+    return <button>0</button>;
   }
 }
 
